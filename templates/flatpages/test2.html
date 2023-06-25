@@ -12,6 +12,7 @@
     {{ flatpage.content }}<br><br>
     Курсивный:<br>
     <i>{{ flatpage.content }}</i><br><br>
-    Другой шрифт, ещё и жирный:<br>
-    <p style="font-size: 1.8em;"><strong>{{ flatpage.content }}</strong></p>
+    Другой шрифт, рамер и жирный:<br>
+    <p><span style="font-family:Courier New,Courier,monospace">
+    <strong><span style="font-size:24px">{{ flatpage.content }}</span></strong></span></p>
 {% endblock content %}
